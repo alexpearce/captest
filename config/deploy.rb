@@ -14,6 +14,8 @@ set :application, "captest"
 set :user, "deploy"
 set :use_sudo, false
 
+ssh_options[:forward_agent] = true
+
 set :scm, :git
 set :repository,  "git@github.com:alexpearce/captest.git"
 
