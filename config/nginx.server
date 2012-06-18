@@ -1,0 +1,9 @@
+server {
+  # Name the server is accessed via
+  server_name 31.193.143.153;
+
+  # Where the site is
+  root /home/deploy/apps/captest/current/public;
+
+  passenger_enabled on;
+}
